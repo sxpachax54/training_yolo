@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Green', 'Red', 'Yellow']
+
+roboflow:
+  workspace: sxpachax
+  project: test-qh3if
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sxpachax/test-qh3if/dataset/10
